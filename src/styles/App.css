@@ -1,0 +1,48 @@
+#main-heading {
+  font-size: 32px; 
+  font-weight: 600; 
+  color: #007fff; 
+  text-align: center; 
+  text-transform: uppercase; 
+  letter-spacing: 3px; 
+  margin-top: 60px; 
+  margin-bottom: 20px; 
+  padding: 0 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  line-height: 1.4; 
+}
+
+#main-heading::after {
+  content: ''; 
+  display: block;
+  height: 3px;
+  width: 80px; 
+  margin: 20px auto; 
+  background-color: #007fff;
+  border-radius: 2px; 
+}
+#packages {
+  text-align: center; /* Center the main heading */
+  padding: 50px 20px; /* Add some spacing around the section */
+}
+
+
+.packages {
+  display: flex;
+  justify-content: center; /* Center align the items */
+  gap: 20px; /* Space between each card */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.package-card {
+  max-width: 300px;
+  width: 100%;
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .packages {
+    flex-direction: column; /* Stack the cards vertically on smaller screens */
+    align-items: center; /* Center them horizontally */
+  }
+}

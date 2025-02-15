@@ -1,0 +1,116 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background: linear-gradient(135deg, #007fff 0%, #00b7ff 100%);
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.header .logo h1 {
+  color: white;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav ul li {
+  position: relative;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav ul li a:hover {
+  color: #ffec64;
+  transform: translateY(-2px);
+}
+
+.social a {
+  margin-left: 15px;
+  color: white;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.social a:hover {
+  color: #ffec64;
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.menu-icon .bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+/* For Mobile Devices */
+@media (max-width: 768px) {
+  .header {
+    padding: 20px;
+    justify-content: space-between;
+  }
+
+  .nav {
+    display: none;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    background-color: #007fff;
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+
+  .nav.active {
+    display: block;
+    transform: translateX(0);
+  }
+
+  .nav ul {
+    display: block;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .nav ul li a {
+    font-size: 22px;
+  }
+
+  .menu-icon {
+    display: flex;
+  }
+}

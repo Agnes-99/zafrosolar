@@ -1,0 +1,173 @@
+/* Footer Container */
+.footer {
+  background: linear-gradient(135deg, #f0f0f0 0%, #ffffff 100%); /* Light gray gradient */
+  padding: 80px 30px;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  border-top: 4px solid #007fff; /* Brand blue */
+}
+
+/* Footer Content */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Main Section */
+.footer-main {
+  width: 48%;
+  margin-bottom: 10px;
+}
+
+.footer-about,
+.footer-links {
+  margin-bottom: 30px;
+}
+
+.footer-about p,
+.footer-links li {
+  font-size: 1.1rem;
+  color: #777;
+  line-height: 1.5;
+}
+
+.footer-about h4,
+.footer-links h4 {
+  color: #007fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #007fff;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #005bb5;
+  transform: translateX(5px); /* Add subtle horizontal movement */
+}
+
+/* Contact Section */
+.footer-contact {
+  width: 48%;
+  margin-bottom: 30px;
+}
+
+.footer-contact-details,
+.footer-address,
+.footer-hours {
+  margin-bottom: 30px;
+}
+
+.footer-contact h4,
+.footer-address h4,
+.footer-hours h4 {
+  color: #007fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.footer-contact p,
+.footer-address p,
+.footer-hours li {
+  font-size: 1.1rem;
+  color: #777;
+  line-height: 1.5;
+}
+
+.footer-contact svg,
+.footer-address svg,
+.footer-hours svg {
+  margin-right: 10px;
+  color: #007fff;
+  vertical-align: middle;
+  font-size: 1.5rem;
+}
+
+/* Operational Hours List */
+.footer-hours ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.footer-hours li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  text-align: center;
+  width: 100%;
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+/* Hover effect on footer icons */
+.footer-contact svg:hover,
+.footer-address svg:hover,
+.footer-hours svg:hover {
+  color: #007fff;
+  transform: translateY(-2px); /* Hover lift effect */
+  transition: all 0.3s ease;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .footer-main,
+  .footer-contact {
+    width: 100%;
+  }
+
+  .footer-about h4,
+  .footer-links h4,
+  .footer-contact h4 {
+    font-size: 1.4rem;
+  }
+
+  .footer-links ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-contact p {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-contact a {
+    margin-left: 10px;
+  }
+}

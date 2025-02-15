@@ -1,0 +1,71 @@
+/* Styling for the contact form and button */
+.contact-icon {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #007fff; /* Azure Blue */
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-icon:hover {
+  background-color: #005f7f; /* Darker shade of blue on hover */
+  transform: translateY(-3px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.contact-options {
+  display: none;
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  opacity: 0;
+  transform: translateY(20px);
+  z-index: 998;
+}
+
+.contact-options.show {
+  display: block;
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.contact-option {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.contact-option a {
+  color: #333333;
+  font-size: 30px;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-option a:hover {
+  color: #007fff; /* Blue hover effect */
+  transform: translateY(-3px);
+}
+
+.contact-option a:active {
+  color: #005f7f; /* Darker blue when clicked */
+}
