@@ -1,5 +1,6 @@
 # Zafrosolar - Solar Energy Solutions
 
+THIS APPLICATION WAS CREATED FOR A CLIENT!
 Welcome to Zafrosolar, your one-stop solution for transforming your home with cutting-edge solar energy technology. We provide a range of solar inverter packages tailored to fit your energy needs and boost your home's energy efficiency.
 
 ## 🌞 About The Project
