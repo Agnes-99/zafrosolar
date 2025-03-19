@@ -3,9 +3,9 @@ import '../styles/PackageCard.css';
 
 const PackageCard = ({ index, title, description, price, specs, images, isActive, toggleDetails }) => {
   const [currentImage, setCurrentImage] = useState(0);
-
   const nextImage = () => setCurrentImage((currentImage + 1) % images.length);
   const prevImage = () => setCurrentImage((currentImage - 1 + images.length) % images.length);
+
 
   return (
     <div className={`package-card ${isActive ? 'active' : ''}`}>
@@ -23,19 +23,14 @@ const PackageCard = ({ index, title, description, price, specs, images, isActive
       </div>
 
       {isActive && (
-        <div className="active-indicator">
-          <p>This package is currently active.</p>
-        </div>
-      )}
-
-      {isActive && (
         <div className="package-details">
           <ul className="specs">
             {specs.map((spec, index) => (
               <li key={index}>{spec}</li>
             ))}
           </ul>
-          <p className="price">Price: {price} (Includes full installation)</p>
+          <p className="price">Price: {price}</p>
+          <p>(Price includes full installation)</p>
         </div>
       )}
     </div>

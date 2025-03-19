@@ -1,9 +1,9 @@
-/* Styling for the contact form and button */
+
 .contact-icon {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  background-color: #007fff; /* Azure Blue */
+  background-color: #007fff; 
   color: white;
   border: none;
   padding: 15px 30px;
@@ -20,7 +20,7 @@
 }
 
 .contact-icon:hover {
-  background-color: #005f7f; /* Darker shade of blue on hover */
+  background-color: #005f7f; 
   transform: translateY(-3px);
   box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
 }
@@ -62,10 +62,10 @@
 }
 
 .contact-option a:hover {
-  color: #007fff; /* Blue hover effect */
+  color: #007fff; 
   transform: translateY(-3px);
 }
 
 .contact-option a:active {
-  color: #005f7f; /* Darker blue when clicked */
+  color: #005f7f; 
 }

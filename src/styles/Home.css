@@ -22,16 +22,15 @@
   border-radius: 2px; 
 }
 #packages {
-  text-align: center; /* Center the main heading */
-  padding: 50px 20px; /* Add some spacing around the section */
+  text-align: center; 
+  padding: 50px 20px; 
 }
-
 
 .packages {
   display: flex;
-  justify-content: center; /* Center align the items */
-  gap: 20px; /* Space between each card */
-  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  justify-content: center; 
+  gap: 20px; 
+  flex-wrap: wrap;
 }
 
 .package-card {
@@ -42,7 +41,7 @@
 
 @media (max-width: 768px) {
   .packages {
-    flex-direction: column; /* Stack the cards vertically on smaller screens */
-    align-items: center; /* Center them horizontally */
+    flex-direction: column;
+    align-items: center;
   }
 }

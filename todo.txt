@@ -1,0 +1,6 @@
+- Fix the FlaskMail
+- Style the quoteform so it fits properly into the screen and has a smooth transition
+- Fix nav links css, 
+- Create remining pages
+- Fix links to different parts of the pages
+- Align Shoe Details buttons

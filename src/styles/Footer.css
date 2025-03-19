@@ -1,14 +1,13 @@
-/* Footer Container */
+
 .footer {
-  background: linear-gradient(135deg, #f0f0f0 0%, #ffffff 100%); /* Light gray gradient */
+  background: linear-gradient(135deg, #f0f0f0 0%, #ffffff 100%);
   padding: 80px 30px;
   color: #333;
   font-family: 'Roboto', sans-serif;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
-  border-top: 4px solid #007fff; /* Brand blue */
+  border-top: 4px solid #007fff;
 }
 
-/* Footer Content */
 .footer-content {
   display: flex;
   justify-content: space-between;
@@ -17,7 +16,6 @@
   max-width: 1200px;
 }
 
-/* Main Section */
 .footer-main {
   width: 48%;
   margin-bottom: 10px;
@@ -63,10 +61,10 @@
 
 .footer-links a:hover {
   color: #005bb5;
-  transform: translateX(5px); /* Add subtle horizontal movement */
+  transform: translateX(5px); 
 }
 
-/* Contact Section */
+
 .footer-contact {
   width: 48%;
   margin-bottom: 30px;
@@ -105,7 +103,6 @@
   font-size: 1.5rem;
 }
 
-/* Operational Hours List */
 .footer-hours ul {
   list-style: none;
   padding-left: 0;
@@ -119,7 +116,7 @@
   align-items: center;
 }
 
-/* Footer Bottom */
+
 .footer-bottom {
   text-align: center;
   width: 100%;
@@ -134,16 +131,15 @@
   margin: 0;
 }
 
-/* Hover effect on footer icons */
 .footer-contact svg:hover,
 .footer-address svg:hover,
 .footer-hours svg:hover {
   color: #007fff;
-  transform: translateY(-2px); /* Hover lift effect */
+  transform: translateY(-2px); 
   transition: all 0.3s ease;
 }
 
-/* Mobile Responsiveness */
+
 @media (max-width: 768px) {
   .footer-main,
   .footer-contact {

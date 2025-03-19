@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa'; // Import social icons
+import { FaFacebook, FaTwitter, FaInstagram, FaTiktok } from 'react-icons/fa';
 import '../styles/Header.css';
 
-const Header = () => {
+const Header = ({ openQuoteForm }) => {
   return (
     <header className="header">
       <div className="logo">
@@ -11,17 +11,16 @@ const Header = () => {
       </div>
       <nav>
         <ul className="nav-links">
-          <li><Link to="#home">Home</Link></li>
-          <li><Link to="#packages">Packages</Link></li>
-          <li><Link to="#about">About Us</Link></li>
-          <li><Link to="#contact">Contact</Link></li>
-          <li><Link to="#quotation">Request a Quote</Link></li>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#packages-section">PACKAGES</a></li>
+          <li><Link to="#about">ABOUT US</Link></li>
+          <li><button onClick={openQuoteForm} >REQUEST A QUOTE</button></li> 
         </ul>
         <div className="social-icons">
           <a href="#" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
           <a href="#" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
           <a href="#" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-          <a href="#" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+          <a href="#" target="_blank" rel="noopener noreferrer"><FaTiktok /></a>
         </div>
       </nav>
     </header>

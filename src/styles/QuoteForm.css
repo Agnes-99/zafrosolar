@@ -1,0 +1,142 @@
+
+#quotation {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  margin-bottom: 25px;
+  letter-spacing: 0.5px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 8px;
+  display: block;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 14px 18px;
+  margin-top: 8px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #005f7f;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+}
+
+textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.text-red-500 {
+  color: #e74c3c;
+  font-size: 12px;
+}
+
+#quoteform-button {
+  padding: 14px;
+  background-color: #007fff;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+#quoteform-button:hover {
+  background-color: #005f7f;
+}
+
+.Toastify__toast--success {
+  background-color: #4caf50 !important;
+  color: white;
+}
+
+.Toastify__toast--error {
+  background-color: #e74c3c !important;
+  color: white;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  position: relative;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 650px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.close-modal-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #333;
+  cursor: pointer;
+}
+
+.close-modal-btn:hover {
+  color: #e74c3c;
+}
+
+@media (max-width: 768px) {
+  #quotation {
+    padding: 20px;
+    max-width: 90%;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+  }
+
+  #quoteform-button {
+    padding: 12px;
+    font-size: 14px;
+  }
+}

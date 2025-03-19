@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="footer-main">
           <div className="footer-about">
             <h4>About ZafroSolar</h4>
-            <p>We provide high-quality inverter installation services with professional packages tailored to your needs.</p>
+            <p>We provide high-quality backup and off-grid solar system installation services with professional packages tailored to your needs.</p>
           </div>
           <div className="footer-links">
             <h4>Quick Links</h4>
@@ -27,12 +27,12 @@ const Footer = () => {
         <div className="footer-contact">
           <div className="footer-contact-details">
             <h4>Contact Us</h4>
-            <p><FaPhoneAlt /> <a href="tel:+1234567890">+1 (234) 567-890</a></p>
-            <p><FaEnvelope /> <a href="mailto:info@zafrotel.com">info@zafrotel.com</a></p>
+            <p><FaPhoneAlt /> <a href="tel:+1234567890">+27 81 207 6913</a></p>
+            <p><FaEnvelope /> <a href="mailto:info@zafrotel.com">zafrotel@gmail.com</a></p>
           </div>
           <div className="footer-address">
             <h4><FaMapMarkerAlt /> Address</h4>
-            <p>123 Street, Surburb , City, Country</p>
+            <p> 57 Albion Street, Rondebosch, Cape Town, South Africa</p>
           </div>
           <div className="footer-hours">
             <h4><FaClock /> Operational Hours</h4>
