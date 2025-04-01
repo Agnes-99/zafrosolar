@@ -11,9 +11,10 @@ const Header = ({ openQuoteForm }) => {
       </div>
       <nav>
         <ul className="nav-links">
-          <li><a href="#home">HOME</a></li>
-          <li><a href="#packages-section">PACKAGES</a></li>
-          <li><Link to="#about">ABOUT US</Link></li>
+          <li><a href="/">HOME</a></li>
+          <li><a href="/ #packages-section">PACKAGES</a></li>
+          <li><Link to="/about">ABOUT US</Link></li>
+          <li><Link to="/services">OUR SERVICES</Link></li>
           <li><button onClick={openQuoteForm} >REQUEST A QUOTE</button></li> 
         </ul>
         <div className="social-icons">

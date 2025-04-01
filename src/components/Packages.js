@@ -22,7 +22,7 @@ export const packages = [
       title: "Mecer 5KW",
       description: "Perfect for medium-sized homes, offering both backup and off-grid solutions during load shedding.",
       price: "R77,937.00",
-      category: "Standard Package",
+      category: "Budget-Friendly Package",
       images: [
         "/assets/inverters/Mecer_5KW_1.png",
         "/assets/inverters/Mecer_5KW_2.png",
@@ -41,7 +41,7 @@ export const packages = [
       title: "Mecer 8KW",
       description: "Ideal for large homes, providing both backup and off-grid power solutions, capable of handling heavy-duty appliances.",
       price: "R122,708.00",
-      category: "Premium Package",
+      category: "Budget-Friendly Package",
       images: [
         "/assets/inverters/Mecer_8KW_1.png",
         "/assets/inverters/Mecer_8KW_2.png",
@@ -79,7 +79,7 @@ export const packages = [
       title: "Deye 8KW",
       description: "Perfect for large homes, the Deye 8KW inverter provides both backup and off-grid solutions, ensuring power for all your essential appliances.",
       price: "R135,708.00",
-      category: "Premium Package",
+      category: "Mid-Range Package",
       images: [
         "/assets/inverters/Deye_8KW_1.png",
         "/assets/inverters/Deye_8KW_2.png",
@@ -98,7 +98,7 @@ export const packages = [
       title: "Sunsynk 5KW",
       description: "Perfect for medium-sized homes, the Sunsynk 5KW inverter offers reliable backup power and can be used for off-grid living, providing seamless energy independence.",
       price: "R99,138.00",
-      category: "Mid-Range Package",
+      category: "Premium Package",
       images: [
         "/assets/inverters/Sunsynk_5KW_1.png",
         "/assets/inverters/Sunsynk_5KW_2.png",

@@ -58,41 +58,38 @@ const QuoteForm = () => {
               </optgroup>
 
               <optgroup label="Consultations">
-              <option value="Consultation">Consultation</option>
+                <option value="Consultation">Consultation</option>
               </optgroup>
 
-                <optgroup label="Solar Installation">
-                  <option value="Mecer 3KW - Installation">Mecer 3KW</option>
-                  <option value="Mecer 5KW - Installation">Mecer 5KW</option>
-                  <option value="Mecer 5KW - Installation">Mecer 8KW</option>
-                  <option value="Mecer 5KW - Installation">Deye 5KW</option>
-                  <option value="Mecer 5KW - Installation">Deye 8KW</option>
-                  <option value="Mecer 5KW - Installation">Sunsynk 5KW</option>
-                  <option value="Mecer 5KW - Installation">Sunsynk 8KW</option>
-                  <option value="Other - Maintenance">Other (Specify Below)</option>
-                </optgroup>
+              <optgroup label="Solar Installation">
+                <option value="Solar Installation">New Solar Installation (Off Grid and Backup)</option>
+              </optgroup>
 
-                <optgroup label="Maintenance">
-                <option value="Electrical Fault Diagnosis">Electrical Fault Diagnosis</option>
+              <optgroup label="Maintenance">
                 <option value="Solar System Maintenance">Solar System Maintenance</option>
+                <option value="UPS Maintenance">UPS Maintenance</option>
+              </optgroup>
 
-                </optgroup>
+              <optgroup label="Wiring and Fault Diagnosis">
+                <option value="House Wiring">House Wiring</option>
+                <option value="Electrical Fault Diagnosis">Electrical Fault Diagnosis</option>
+              </optgroup>
+
+              <optgroup label="Battery Services">
+                <option value="Battery Testing and Recharging">Battery Testing and Recharging</option>
+              </optgroup>
+
+              <optgroup label="Motor Services">
+                <option value="Single Phase Motor Starters">Single & Three Phase Motor Starters</option>
+              </optgroup>
+
+              <optgroup label="Cable Management">
+                <option value="Tubing and Cable Ways">Tubing and Cable Ways</option>
+              </optgroup>
 
               </Field>
               <ErrorMessage name="service" component="div" className="text-red-500 text-sm" />
             </div>
-
-            {/* Conditional field for 'Other' under Maintenance */}
-            {values.service === 'Other - Maintenance' && (
-              <div className="mt-4">
-                <label className="block text-sm font-medium">Specify Solar System</label>
-                <Field
-                  name="otherService"
-                  placeholder="e.g., SunSynk 8KW"
-                  className="w-full p-2 border rounded"
-                />
-              </div>
-            )}
 
             <div>
               <label className="block text-sm font-medium">Additional Details</label>
