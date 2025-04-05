@@ -1,9 +1,10 @@
+// usePackages.js
 import { useState } from 'react';
 import { packages, categories } from './Packages';
 
 const usePackages = () => {
-  const [activeCategory, setActiveCategory] = useState('all');
-  const [activePackageIndex, setActivePackageIndex] = useState(null);
+  const [activeCategory, setActiveCategory] = useState('Budget-Friendly Package');
+  const [activePackageIndices, setActivePackageIndices] = useState([]); // multiple active cards
 
   const filterPackages = (category) => {
     if (category === 'all') return packages;
@@ -11,13 +12,17 @@ const usePackages = () => {
   };
 
   const togglePackageDetails = (index) => {
-    setActivePackageIndex(activePackageIndex === index ? null : index);
+    setActivePackageIndices(prev =>
+      prev.includes(index)
+        ? prev.filter(i => i !== index)
+        : [...prev, index]
+    );
   };
 
   return {
     activeCategory,
     setActiveCategory,
-    activePackageIndex,
+    activePackageIndices,
     togglePackageDetails,
     filterPackages,
     categories

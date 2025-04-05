@@ -1,11 +1,11 @@
 #main-heading {
   font-size: 32px; 
   font-weight: 600; 
-  color: #007fff; 
+  color: #14213d; 
   text-align: center; 
   text-transform: uppercase; 
   letter-spacing: 3px; 
-  margin-top: 60px; 
+  margin-top: 80px; 
   margin-bottom: 20px; 
   padding: 0 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
@@ -18,9 +18,10 @@
   height: 3px;
   width: 80px; 
   margin: 20px auto; 
-  background-color: #007fff;
+  background-color: #14213d;
   border-radius: 2px; 
 }
+
 #packages {
   text-align: center; 
   padding: 50px 20px; 

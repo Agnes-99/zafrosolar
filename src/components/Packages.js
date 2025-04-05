@@ -1,4 +1,4 @@
-// src/packages.js
+
 export const packages = [
     {
       title: "Mecer 3KW",
@@ -15,7 +15,7 @@ export const packages = [
         "Backup Duration: 4–6 hours during load shedding.",
         "Battery Capacity: 2.56 kWh.",
         "Full installation + COC",
-        "Solar Panel Compatibility: (590W) x2."
+        "Solar Panels: (590W) x2."
       ]
     },
     {
@@ -32,7 +32,7 @@ export const packages = [
         "Powers: House lights, fridges, gate and garage motors, fan, TV, Wi-Fi, sound system, essential plugs, microwave, kettle, and iron.",
         "Backup Duration: 10–12 hours during load shedding, ensuring continuous power.",
         "Battery Capacity: 5.12 kWh.",
-        "Solar Panel Compatibility: 6 x 590W panels for optimal performance.",
+        "Solar Panels: 6 x 590W panels for optimal performance.",
         "Solar-powered during daylight, reducing grid reliance.",
         "Full installation + COC"
       ]
@@ -51,7 +51,7 @@ export const packages = [
         "Powers: All house appliances including stove, geyser, fridge, lights, fan, TV, Wi-Fi, gate motors, and more.",
         "Backup Duration: 15–20 hours during load shedding, ensuring long-lasting power.",
         "Battery Capacity: 10.24 kWh.",
-        "Solar Panel Compatibility: 10 x 590W panels for high-efficiency performance.",
+        "Solar Panels: 10 x 590W panels for high-efficiency performance.",
         "Solar-powered during daylight, reducing grid dependency and optimizing energy use.",
         "Full installation + COC."
       ]
@@ -70,7 +70,7 @@ export const packages = [
         "Powers: All house lights, fridges, gate and garage motors, fan, TV, Wi-Fi, sound system, essential plugs, kettle, microwave, iron, and more.",
         "Backup Duration: 10–12 hours during load shedding, providing reliable power when you need it most.",
         "Battery Capacity: 5.12 kWh.",
-        "Solar Panel Compatibility: 8 x 590W panels for high-efficiency solar energy capture.",
+        "Solar Panels: 8 x 590W panels for high-efficiency solar energy capture.",
         "Solar-powered during daylight, reducing reliance on the grid and ensuring maximum energy independence.",
         "Full installation + COC"
       ]
@@ -89,7 +89,7 @@ export const packages = [
         "Powers: All house appliances, including stove, geyser, and high-energy devices.",
         "Backup Duration: 15–20 hours during load shedding, keeping your home powered for extended periods.",
         "Battery Capacity: 10.24 kWh.",
-        "Solar Panel Compatibility: 10 x 590W panels for maximum efficiency.",
+        "Solar Panels: 10 x 590W panels for maximum efficiency.",
         "During daylight, your home will rely primarily on the solar system, reducing grid dependency and optimizing energy use.",
         "Full installation + COC."
       ]
@@ -108,7 +108,7 @@ export const packages = [
         "Powers: All essential home appliances, including lights, fridges, garage motors, fan, TV, Wi-Fi, sound system, kettle, microwave, and iron.",
         "Backup Duration: 10–12 hours during load shedding, ensuring continuous operation.",
         "Battery Capacity: 5.12 kWh.",
-        "Solar Panel Compatibility: 8 x 590W panels to maximize energy capture and efficiency.",
+        "Solar Panels: 8 x 590W panels to maximize energy capture and efficiency.",
         "During daylight hours, your home will operate primarily on solar power, reducing grid reliance and energy costs.",
         "Full installation + COC"
       ]
@@ -127,12 +127,12 @@ export const packages = [
         "Powers: All household appliances including stove, geyser, fridges, lights, garage motors, TV, Wi-Fi, and essential home devices.",
         "Backup Duration: 15–20 hours of reliable power during load shedding.",
         "Battery Capacity: 10.24 kWh.",
-        "Solar Panel Compatibility: 10 x 590W panels.",
+        "Solar Panels: 10 x 590W panels.",
         "Solar-powered during daylight, significantly reducing your electricity bills.",
         "Full installation + COC"
       ]
     },
   ];
   
-  export const categories = ["all", "Budget-Friendly Package", "Mid-Range Package", "Premium Package"];
+  export const categories = ["Budget-Friendly Package", "Mid-Range Package", "Premium Package"];
   

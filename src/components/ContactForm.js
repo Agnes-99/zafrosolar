@@ -15,7 +15,7 @@ const ContactForm = () => {
     <div>
     
       <button className="contact-icon" onClick={toggleContactOptions}>
-        {isContactOptionsVisible ? 'X' : 'Contact Us'}
+        {isContactOptionsVisible ? 'Close' : 'Contact Us'}
       </button>
 
       

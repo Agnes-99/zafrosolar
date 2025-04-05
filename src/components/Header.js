@@ -6,22 +6,23 @@ import '../styles/Header.css';
 const Header = ({ openQuoteForm }) => {
   return (
     <header className="header">
-      <div className="logo">
-        <h1>ZafroSolar</h1>
+      <div className="logo-container">
+        <img src="/assets/logo/logo.png" className="logoImage" alt="ZafroSolar Logo" />
+        <h1 className="logo-text">ZafroSolar</h1>
       </div>
       <nav>
         <ul className="nav-links">
-          <li><a href="/">HOME</a></li>
-          <li><a href="/ #packages-section">PACKAGES</a></li>
-          <li><Link to="/about">ABOUT US</Link></li>
-          <li><Link to="/services">OUR SERVICES</Link></li>
-          <li><button onClick={openQuoteForm} >REQUEST A QUOTE</button></li> 
+          <li><Link to="/">Home</Link></li>
+          <li><a href="/#packages-section">Packages</a></li>
+          <li><Link to="/about">About</Link></li>
+          <li><Link to="/services">Our Services</Link></li>
+          <li><button onClick={openQuoteForm}>Request a Quote</button></li>
         </ul>
         <div className="social-icons">
-          <a href="#" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
-          <a href="#" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
-          <a href="#" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-          <a href="#" target="_blank" rel="noopener noreferrer"><FaTiktok /></a>
+          <a href="#" className="facebook" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
+          <a href="#" className="x" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+          <a href="#" className="instagram" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+          <a href="#" className="tiktok" target="_blank" rel="noopener noreferrer"><FaTiktok /></a>
         </div>
       </nav>
     </header>

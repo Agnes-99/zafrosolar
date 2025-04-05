@@ -12,7 +12,7 @@
 }
 
 .category-btn {
-  background-color: #007fff;
+  background-color: #14213d;
   color: white;
   font-size: 1rem;
   padding: 12px 20px;
@@ -66,8 +66,8 @@
 }
 
 .package-header h2 {
-  font-size: 1.4rem;
-  color: #007fff;
+  font-size: 1.3rem;
+  color: #14213d;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -81,7 +81,7 @@
 }
 
 .package-card .toggle-btn {
-  background-color: #007fff;
+  background-color: #14213d;
   color: white;
   padding: 8px 16px;
   border: none;
@@ -145,7 +145,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(0, 127, 255, 0.7);
+  background-color: #14213d;
   color: white;
   font-size: 1.2rem;
   padding: 8px;

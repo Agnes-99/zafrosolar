@@ -14,9 +14,9 @@ const Footer = () => {
           <div className="footer-links">
             <h4>Quick Links</h4>
             <ul>
-              <li><a href="#home">Home</a></li>
+              <li><a href="/">Home</a></li>
               <li><a href="#packages">Packages</a></li>
-              <li><a href="#about">About Us</a></li>
+              <li><a href="/about">About</a></li>
               <li><a href="#contact">Contact</a></li>
               <li><a href="#terms">Terms of Service</a></li>
               <li><a href="#privacy">Privacy Policy</a></li>
@@ -27,12 +27,12 @@ const Footer = () => {
         <div className="footer-contact">
           <div className="footer-contact-details">
             <h4>Contact Us</h4>
-            <p><FaPhoneAlt /> <a href="tel:+1234567890">+27 81 207 6913</a></p>
-            <p><FaEnvelope /> <a href="mailto:info@zafrotel.com">zafrotel@gmail.com</a></p>
+            <p><FaPhoneAlt /> <a href="tel:+1234567890" className="contact-link-footer">+27 78 140 9668</a></p>
+            <p><FaEnvelope /> <a href="mailto:info@zafrotel.com" className="email-link-footer">info@zafrosolar.co.za</a></p>
           </div>
           <div className="footer-address">
             <h4><FaMapMarkerAlt /> Address</h4>
-            <p> 57 Albion Street, Rondebosch, Cape Town, South Africa</p>
+            <p> 1 Wallace Street, Goodwood, Cape Town, South Africa</p>
           </div>
           <div className="footer-hours">
             <h4><FaClock /> Operational Hours</h4>
