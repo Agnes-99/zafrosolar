@@ -79,7 +79,6 @@ const QuoteForm = () => {
           <textarea
             name="message"
             rows="4"
-            required
             className="w-full p-2 border rounded"
           />
         </div>
@@ -87,10 +86,7 @@ const QuoteForm = () => {
         {/* Optional redirect after submission */}
         {/* <input type="hidden" name="_redirect" value="https://yourdomain.com/thank-you" /> */}
 
-        <button
-          type="submit"
-          className="w-full bg-blue-600 text-white p-2 rounded hover:bg-blue-700"
-        >
+        <button type="submit" id="quoteform-button" >
           Submit
         </button>
       </form>

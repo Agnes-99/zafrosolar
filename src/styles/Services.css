@@ -24,7 +24,7 @@ body {
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
 }
 
-h2 {
+.services-header {
   font-size: 2.5rem;
   color: #14213d;
   margin-bottom: 1.75rem;
@@ -35,7 +35,7 @@ h2 {
   position: relative;
 }
 
-h2::before {
+.services-header::before {
   content: "";
   position: absolute;
   width: 60%;

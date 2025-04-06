@@ -1,7 +1,7 @@
 import React from 'react';
 import PackageCard from './PackageCard';
 import ContactForm from './ContactForm';
-import usePackages from './UsePackages'; // ✅ this is the correct import
+import usePackages from './UsePackages'; 
 import '../styles/Home.css';
 
 const Home = () => {
@@ -12,12 +12,12 @@ const Home = () => {
     togglePackageDetails,
     filterPackages,
     categories
-  } = usePackages(); // ✅ this correctly calls your custom hook
+  } = usePackages(); 
 
   return (
     <>
       <div className="packages-section" id="packages-section">
-        <h2 id="main-heading">Our Inverter Packages</h2>
+        <h2 className="home-heading">Our Home Solar System</h2>
 
         <div className="categories">
           {categories.map((category, index) => (

@@ -4,7 +4,7 @@ import { packages, categories } from './Packages';
 
 const usePackages = () => {
   const [activeCategory, setActiveCategory] = useState('Budget-Friendly Package');
-  const [activePackageIndices, setActivePackageIndices] = useState([]); // multiple active cards
+  const [activePackageIndices, setActivePackageIndices] = useState([]); 
 
   const filterPackages = (category) => {
     if (category === 'all') return packages;

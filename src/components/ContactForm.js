@@ -21,17 +21,17 @@ const ContactForm = () => {
       
       <div className={`contact-options ${isContactOptionsVisible ? 'show' : ''}`}>
         <div className="contact-option">
-          <a href="tel:+27812076913">
+          <a href="tel:+27781409668">
             <FontAwesomeIcon icon={faPhone} />
           </a>
         </div>
         <div className="contact-option">
-          <a href="mailto:zafrotel@gmail.com">
+          <a href="mailto:info@zafrosolar.co.za">
             <FontAwesomeIcon icon={faEnvelope} />
           </a>
         </div>
         <div className="contact-option">
-          <a href="https://wa.me/+27812076913">
+          <a href="https://wa.me/+27781409668">
             <FontAwesomeIcon icon={faWhatsapp} />
           </a>
         </div>

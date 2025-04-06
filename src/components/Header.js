@@ -5,7 +5,7 @@ import '../styles/Header.css';
 
 const Header = ({ openQuoteForm }) => {
   return (
-    <header className="header">
+    <header className="header" id="header">
       <div className="logo-container">
         <img src="/assets/logo/logo.png" className="logoImage" alt="ZafroSolar Logo" />
         <h1 className="logo-text">ZafroSolar</h1>

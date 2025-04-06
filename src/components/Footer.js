@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaClock } from 'react-icons/fa'; // Importing icons
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaClock } from 'react-icons/fa'; 
 import '../styles/Footer.css';
 
 const Footer = () => {
@@ -37,8 +37,8 @@ const Footer = () => {
           <div className="footer-hours">
             <h4><FaClock /> Operational Hours</h4>
             <ul>
-              <li>Monday - Friday: 9:00 AM - 6:00 PM</li>
-              <li>Saturday: 10:00 AM - 4:00 PM</li>
+              <li>Monday - Friday: 8:00 AM - 6:00 PM</li>
+              <li>Saturday: 09:00 AM - 1:00 PM</li>
               <li>Sunday: Closed</li>
             </ul>
           </div>

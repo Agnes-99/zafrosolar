@@ -75,7 +75,6 @@
   border-radius: 2px;
 }
 
-/* For Mobile Devices */
 @media (max-width: 768px) {
   .header {
     padding: 20px;

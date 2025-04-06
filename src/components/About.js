@@ -11,7 +11,6 @@ const About = () => {
         <div className="hero-content-about">
           <h1 className="hero-title-about">About ZafroSolar</h1>
           <p className="hero-subheading-about">Empowering the Future of Energy with Cutting-Edge Solutions</p>
-          <button className="cta-button hero-button-about">Learn More</button>
         </div>
         <div className="hero-image-wrapper-about">
           <img src="/assets/slideimages/slideImage_4.jpg" alt="Solar Energy" className="hero-image-about" />
@@ -59,18 +58,15 @@ const About = () => {
           </div>
           <div className="work-item">
             <img src="/assets/slideimages/slideImage_7.jpg" alt="Residential Solar Panels" />
-            <h3>Residential Installation</h3>
           </div>
           <div className="work-item">
             <img src="/assets/slideimages/slideImage_4.jpg" alt="#" />
-            <h3>#</h3>
+            <h3>Residential Installation</h3>
           </div>
         </div>
       </section>
 
-      {/* Technologies & Expertise Section */}
       <section className="technologies">
-
         <div className="tech-icons">
           <div className="tech-icon">
             <img src="/assets/slideimages/slideImage_1.jpg" alt="Solar Panel" />
@@ -132,10 +128,10 @@ const About = () => {
   </div>
 </section>
 
-          {/* Contact Form */}
-          <div id="contact">
-          <ContactForm />
-        </div>
+      {/* Contact Form */}
+      <div id="contact">
+        <ContactForm />
+      </div>
     </div>
  
   );
