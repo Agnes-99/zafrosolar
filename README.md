@@ -30,7 +30,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Website: [zafrosolar.com](https://www.zafrosolar.co.za)
 
 ## Home 
-![Home page](<public\assets\screenshots\Screenshot 2025-04-06 161947.png>)
+![Home page](<Screenshot 2025-04-06 161947.png>)
 ## Packages
 ![Packages](public/assets/screenshots/Screenshot 2025-04-06 161959.png)
 ## About
