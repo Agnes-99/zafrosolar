@@ -29,18 +29,24 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ### 🖋️ See The Site in Action
 - Website: [zafrosolar.com](https://www.zafrosolar.co.za)
 
-## Home 
-![Home page](assets/screenshots/Screenshot 2025-04-06 161947.png)
+## Home
+![Home page](assets/screenshots/Screenshot%202025-04-06%20161947.png)
+
 ## Packages
-![Packages](/assets/screenshots/Screenshot 2025-04-06 161959.png)
+![Packages](/assets/screenshots/Screenshot%202025-04-06%20161959.png)
+
 ## About
-![About](./public/assets/screenshots/Screenshot 2025-04-06 162017.png)
+![About](./public/assets/screenshots/Screenshot%202025-04-06%20162017.png)
+
 ## Services
-![Services](public/assets/screenshots/Screenshot 2025-04-06 162026.png)
+![Services](public/assets/screenshots/Screenshot%202025-04-06%20162026.png)
+
 ## Footer
-![Footer](<./assets/screenshots/Screenshot 2025-04-06 162035.png>)
+![Footer](./assets/screenshots/Screenshot%202025-04-06%20162035.png)
+
 ## Form
-![Form](</assets/screenshots/Screenshot 2025-04-06 162046.png>)
+![Form](./assets/screenshots/Screenshot%202025-04-06%20162046.png)
+
 
 
 
