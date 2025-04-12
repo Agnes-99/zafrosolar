@@ -1,6 +1,8 @@
 # Zafrosolar - Solar Energy Solutions
 
-THIS APPLICATION WAS CREATED FOR A CLIENT. SCREENSHOTS PROVIDED!
+-**THIS APPLICATION WAS CREATED FOR A CLIENT.**  
+-**SCREENSHOTS PROVIDED!**
+
 Welcome to Zafrosolar, your one-stop solution for transforming your home with cutting-edge solar energy technology. We provide a range of solar inverter packages tailored to fit your energy needs and boost your home's energy efficiency.
 
 ## 🌞 About The Project
@@ -47,10 +49,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Form
 ![Form](public/assets/screenshots/form.png)
 
-
-
-
-Thank you for choosing Zafrosolar! 🌞 Let's power a brighter, greener future together.
 
 ---
 
