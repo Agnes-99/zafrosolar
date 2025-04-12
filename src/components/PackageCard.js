@@ -30,7 +30,7 @@ const PackageCard = ({ index, title, description, price, specs, images, isActive
               <li key={idx}>{spec}</li>
             ))}
           </ul>
-          <p>(Price includes full installation)</p>
+          <p>(Price includes full installation + R750 Callout Fee)</p>
         </div>
       )}
     </div>
